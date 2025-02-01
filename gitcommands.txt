@@ -1,0 +1,46 @@
+
+
+from empty repo to push 
+================================
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:midhunlevel16/Emptyrepo.git
+git push -u origin main
+
+
+
+creating new branch 
+=================
+git checkout -b development -> creating new branch and switching immediately
+git status  -> to get status of staged and unstaged files 
+git commit -m "commit name " -> commit message
+git push -> directly pushing to development
+
+git checkout <branchname> -> switching to respected branch
+git merge <Main>  
+git push
+
+
+git add . -> adding all the files into ready to commit 
+git stash -> undo all the changes whose ready to commit 
+git restore <filename> <filename> -> undo 
+
+git pull
+
+git clone <repourl> -> to pull projects form repo 
+
+
+git remote show origin -> details of current repo.
+
+
+repo name git operations 
+--push
+
+--pull
+
+--branch
+
+
+
